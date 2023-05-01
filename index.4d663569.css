@@ -145,12 +145,7 @@ img.socialIcon {
   animation: slideInLeft 1s ease-out forwards;
 }
 
-@media (max-width: 390px) {
-  .container {
-    flex-direction: column;
-    display: flex;
-  }
-
+@media (max-width: 768px) {
   h1 {
     font-size: 4rem;
   }
@@ -166,28 +161,17 @@ img.socialIcon {
   p {
     font-size: 16px;
   }
-}
 
-@media (max-width: 405px) {
   .container {
     flex-direction: column;
+    grid-template-columns: none;
+    align-items: center;
     display: flex;
   }
 
-  h1 {
-    font-size: 4rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    font-size: 1.1rem;
-  }
-
-  p {
-    font-size: 16px;
+  .container .box {
+    max-width: 90%;
+    margin-bottom: 20px;
   }
 }
 
