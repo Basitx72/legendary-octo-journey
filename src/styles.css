@@ -173,6 +173,29 @@ img.socialIcon {
   animation: slideInLeft 1s ease-out 0s 1 forwards;
 }
 
+/* new */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar a {
+  display: inline-block;
+}
+
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
   h1 {
@@ -199,4 +222,19 @@ img.socialIcon {
     max-width: 90%;
     margin-bottom: 20px;
   }
+
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .navbar li {
+    margin: 0.5rem 0;
+  }
 }
+
