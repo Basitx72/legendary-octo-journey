@@ -2,7 +2,9 @@
 * CSS file to hold styles that apply across the application
 */
 
+
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
+
 
 html,
 body {
@@ -26,24 +28,29 @@ body {
   width: 100%;
 }
 
+
 div#main {
   display: flex;
   flex-direction: column;
   width: 100vw;
 }
 
+
 section {
   position: relative;
   width: 100vw;
 }
 
+
 section.min-height {
   min-height: 100vh;
 }
 
+
 section.padding {
   padding: 5rem 0;
 }
+
 
 section img.background {
   height: 100%;
@@ -57,6 +64,7 @@ section img.background {
   z-index: -1;
 }
 
+
 h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: 7rem;
@@ -65,6 +73,7 @@ h1 {
   margin: 0;
 }
 
+
 h2 {
   font-size: 2rem;
   font-weight: 400;
@@ -72,11 +81,13 @@ h2 {
   padding-top: 1rem;
 }
 
+
 h3 {
   font-weight: 400;
   font-size: 1.25rem;
   margin: 0;
 }
+
 
 p {
   font-size: 18px;
@@ -85,34 +96,42 @@ p {
   font-weight: 300;
 }
 
+
 p.large {
   font-size: 24px;
 }
+
 
 p.small {
   font-size: 15px;
 }
 
+
 hr {
   margin: 2.5rem;
 }
+
 
 li {
   line-height: 1.7;
 }
 
+
 li::marker {
   color: #4e567e;
 }
+
 
 a {
   color: black;
   text-decoration: none;
 }
 
+
 a:hover {
   color: #4e567e;
 }
+
 
 .container {
   display: grid;
@@ -120,6 +139,7 @@ a:hover {
   grid-template-columns: 330px 300px;
   margin: 20px auto;
 }
+
 
 .container .box {
   border-radius: 10px;
@@ -131,10 +151,12 @@ a:hover {
   text-align: center;
 }
 
+
 img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
 
 /* add a slide in animation */
 @keyframes slideInLeft {
@@ -146,7 +168,35 @@ img.socialIcon {
   }
 }
 
+
 .slide-in {
   animation: slideInLeft 1s ease-out 0s 1 forwards;
 }
 
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: none;
+    align-items: center;
+  }
+
+  .container .box {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+}
