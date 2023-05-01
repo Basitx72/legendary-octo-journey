@@ -202,6 +202,47 @@ img.socialIcon {
     columns: 1;
     gap: 1rem;
     margin: 2rem .5rem;
+    font-size: 1rem;
+  }
+
+  .quote {
+    padding: 1rem .5rem 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .container .box {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .navbar li {
+    margin: .5rem 0;
+  }
+
+  .about-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .skills-list {
+    columns: 1;
+    gap: 1rem;
+    margin: 2rem .5rem;
   }
 
   .quote {
