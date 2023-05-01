@@ -317,4 +317,24 @@ img.socialIcon {
   }
 }
 
+.home-content {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+
+.home-name {
+  margin: 0;
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.home-title {
+  margin: 1rem 0 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
