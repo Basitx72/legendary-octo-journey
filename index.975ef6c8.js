@@ -27091,7 +27091,7 @@ var _stylesCss = require("./styles.css");
  */ const siteProps = {
     name: "Abdul Basit",
     title: "Web Designer & Video Production",
-    email: "alex@example.com",
+    email: "basitx72@gmail.com",
     gitHub: "basitx72",
     instagram: "heyiambasit",
     linkedIn: "basit-xd",
