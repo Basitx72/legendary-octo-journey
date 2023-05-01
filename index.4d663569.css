@@ -141,4 +141,8 @@ img.socialIcon {
   }
 }
 
+.slide-in {
+  animation: slideInLeft 1s ease-out forwards;
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
