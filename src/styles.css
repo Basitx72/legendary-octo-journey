@@ -228,6 +228,46 @@ img.socialIcon {
     columns: 1;
     margin: 2rem 0.5rem;
     gap: 1rem;
+    font-size: 1rem; /* Adjust font size for better visibility */
+  }
+
+  .quote {
+    padding: 1rem 0.5rem 0;
+  }
+}
+/* Adjust styles for devices with a width of 280px */
+@media (max-width: 280px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  .container .box {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .navbar li {
+    margin: 0.5rem 0;
+  }
+
+  .about-content {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .skills-list {
+    columns: 1;
+    margin: 2rem 0.5rem;
+    gap: 1rem;
   }
 
   .quote {
