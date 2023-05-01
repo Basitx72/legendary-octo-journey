@@ -238,3 +238,41 @@ img.socialIcon {
   }
 }
 
+/* Add the new provided CSS code */
+
+.about-content {
+  background-color: white;
+  width: 50%;
+  padding: 4rem;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.skills-list {
+  text-align: left;
+  columns: 2;
+  font-size: 1.25rem;
+  margin: 2rem 3rem;
+  gap: 3rem;
+}
+
+.quote {
+  padding: 1rem 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .skills-list {
+    columns: 1;
+    margin: 2rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .quote {
+    padding: 1rem 1rem 0;
+  }
+}
