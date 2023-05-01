@@ -145,4 +145,50 @@ img.socialIcon {
   animation: slideInLeft 1s ease-out forwards;
 }
 
+.container {
+  width: 100%;
+  background-color: red;
+  padding: 15px;
+}
+
+@media (min-width: 360px) {
+  .container {
+    width: 340px;
+    background-color: green;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 375px) {
+  .container {
+    width: 355px;
+    background-color: #00f;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+    background-color: purple;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+    background-color: orange;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    background-color: #ff0;
+    margin: 0 auto;
+  }
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
