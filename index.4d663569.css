@@ -211,4 +211,41 @@ img.socialIcon {
   }
 }
 
+.about-content {
+  width: 50%;
+  text-align: center;
+  background-color: #fff;
+  margin: 3rem auto;
+  padding: 4rem;
+}
+
+.skills-list {
+  text-align: left;
+  columns: 2;
+  gap: 3rem;
+  margin: 2rem 3rem;
+  font-size: 1.25rem;
+}
+
+.quote {
+  padding: 1rem 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .about-content {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .skills-list {
+    columns: 1;
+    gap: 1.5rem;
+    margin: 2rem 1rem;
+  }
+
+  .quote {
+    padding: 1rem 1rem 0;
+  }
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */
