@@ -20,7 +20,6 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/design-desk.jpeg";
-
 const imageAltText = "desktop with books and laptop";
 
 /**
@@ -29,6 +28,7 @@ const imageAltText = "desktop with books and laptop";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
+
 const projectList = [
   {
     title: "10 Things To Know About Azure Static Web Apps 🎉",
@@ -55,7 +55,6 @@ const projectList = [
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
 ];
-
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
@@ -66,6 +65,7 @@ const Portfolio = () => {
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
+            className="slide-in"
           />
         </div>
         <div className="container">
