@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles.css";
+import "../styles.css";
 
 const Header = () => {
   const [isNavVisible, setIsNavVisible] = useState(false);
