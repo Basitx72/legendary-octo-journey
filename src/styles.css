@@ -393,7 +393,7 @@ img.socialIcon {
   gap: 2rem;
 }
 
-@media screen and (max-width: 768px), screen and (max-width: 280px) {
+@media screen and (max-width: 500px) {
   .hamburger {
     display: block;
   }
@@ -414,3 +414,4 @@ img.socialIcon {
     width: 100%;
   }
 }
+
