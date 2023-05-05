@@ -413,10 +413,12 @@ img.socialIcon {
   }
   
   .nav.visible {
-    display: block;
+    display: flex; /* change display from "block" to "flex" */
+    flex-direction: column; /* add this line to stack the navbar items vertically */
+    align-items: center; /* add this line to center the navbar items horizontally */
   }
 }
 
 .nav.desktop {
-  display: none; /* hide the desktop navbar in mobile view */
+  display: none;
 }
