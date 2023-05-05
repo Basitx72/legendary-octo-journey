@@ -404,16 +404,17 @@ img.socialIcon {
     gap: 1rem;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 0;
     background: rgba(255, 255, 255, 0.9);
     padding: 1rem;
     width: 100%;
   }
 
   .nav.visible {
-    display: flex;
+    display: block;
   }
 }
+
 
 .nav.desktop {
   position: fixed;
