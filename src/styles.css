@@ -414,4 +414,7 @@ img.socialIcon {
     width: 100%;
   }
 }
+.nav.desktop {
+  gap: 2rem;
+}
 
