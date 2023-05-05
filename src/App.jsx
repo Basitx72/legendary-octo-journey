@@ -1,11 +1,6 @@
-/**
- * Application component
- *
- * To contain application wide settings, routes, state, etc.
- */
-
-import React from "react";
-
+import React, { useState } from "react";
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { FaBars } from 'react-icons/fa';
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
@@ -39,9 +34,23 @@ const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
+  const [collapsed, setCollapsed] = useState(true);
+
   return (
     <div id="main">
-      <Header />
+      <Navbar expand="md" bg="light" variant="light" sticky="top" expanded={!collapsed} onToggle={() => setCollapsed(!collapsed)}>
+        <Navbar.Brand href="#">{siteProps.name}</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav">
+          <FaBars />
+        </Navbar.Toggle>
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link href="#education">Education</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
